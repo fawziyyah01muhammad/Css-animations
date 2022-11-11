@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    text-align: center;
+} */
+
+ul{
+    margin: 0;
+    padding: 0;
+   position: absolute;
+   left: 40%;
+   top: 20%;
+}
+ul li{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    box-shadow:0 0 2px rgb(0,
+     0, 0.5);
+     transform-origin: bottom center;
+     animation: animate 7s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+ul li:nth-child(1){
+    animation-delay: 0s;
+    background-color: rgba(247, 29, 221, 0.8);
+}
+ul li:nth-child(2){
+    animation-delay: 1s;
+    background-color: rgba(240, 21, 13, 0.8);
+}
+ul li:nth-child(3){
+    animation-delay: 2s;
+    background-color: rgba(248, 252, 13, 0.8);
+}
+ul li:nth-child(4){
+    animation-delay: 3s;
+    background-color: rgba(126, 247, 14, 0.8);
+}
+ul li:nth-child(5){
+    animation-delay: 4s;
+    background-color: rgba(11, 232, 240, 0.8);
+}
+ul li:nth-child(6){
+    animation-delay: 5s;
+    background-color: rgba(10, 34, 248, 0.8);
+}
+ul li:nth-child(7){
+    animation-delay: 6s;
+    background-color: rgba(183, 9, 252, 0.8);
+}
+ul li:nth-child(8){
+    animation-delay: 7s;
+    background-color: rgba(250, 3, 3, 0.8);
+}
+
+
+/* ---------- CUBES EFFECT --------- */
+
+
+
+
+
